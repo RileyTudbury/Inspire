@@ -9,3 +9,8 @@ body{
   background-position: center;
 }
 
+.row{
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+

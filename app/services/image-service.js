@@ -13,7 +13,6 @@ const imgApi = axios.create({
 class ImageService {
 
   getImage() {
-    debugger
     imgApi
       .get("")
       .then(res => {

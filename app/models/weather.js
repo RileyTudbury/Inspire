@@ -10,5 +10,15 @@ export default class Weather {
 
     this.city = data.name
     this.kelvin = data.main.temp
+    this.fahrenheit = (data.main.temp - 273.15) * (9 / 5) + 32
+
   }
+
+  get weatherTemplate() {
+    //this.fahrenheit.toFixed(0)
+    return ``
+  }
+
+
+
 }
