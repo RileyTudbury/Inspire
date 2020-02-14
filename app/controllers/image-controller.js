@@ -7,15 +7,22 @@ import imageService from "../services/image-service.js";
 //      (you may wish to set it as a background image)
 
 function _drawBackground() {
-  let image = store.State.image
 
+  let image = store.State.image
   document.querySelector("body").style.backgroundImage = `url(${image.url})`
+
+}
+
+function _drawCopyright() {
+  let image = store.State.image
+  document.getElementById("image-credit").innerHTML = `Copyright: ${store.State.image.copyright}`
 }
 
 
 export default class ImageController {
   constructor() {
 
+    store.subscribe("image", _drawCopyright)
     store.subscribe("image", _drawBackground)
 
     imageService.getImage()
