@@ -17,7 +17,8 @@ export default class Weather {
   get weatherTemplate() {
     //this.fahrenheit.toFixed(0)
     return `
-    <span>${this.fahrenheit.toFixed(0)}° in</span><span> ${this.city}</span>
+
+    <h4>${this.fahrenheit.toFixed(0)}° in ${this.city}</h4>
     
     `
   }

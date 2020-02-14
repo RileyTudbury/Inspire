@@ -1,4 +1,3 @@
-import ImageService from "../services/image-service.js";
 
 import store from "../store.js"
 import imageService from "../services/image-service.js";
