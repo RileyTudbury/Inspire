@@ -18,10 +18,6 @@ body{
     text-shadow: 1px 1px 3px black;
 }
 
-.card-body{
-  color: black;
-}
-
 #filler-col{
   min-height: 85vh;
 }
@@ -31,7 +27,5 @@ body{
   bottom: 6vh;
   right: 2vw;
 }
-
-
 
 
