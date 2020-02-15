@@ -11,6 +11,11 @@ body{
   text-shadow: 1px 1px 3px black;
 }
 
+li{
+  display: flex !important;
+  text-align: center !important;
+}
+
 .btn{
     background-color: transparent;
     border-color: #ccc;
@@ -37,4 +42,10 @@ body{
 #add-task-btn{
   background-color: green;
 }
+
+.no-bd{
+  align-self: flex-end;
+  border: none !important;
+}
+
 
