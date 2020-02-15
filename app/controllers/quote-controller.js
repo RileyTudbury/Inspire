@@ -6,7 +6,9 @@ import store from "../store.js";
 //      (be sure to review the HTML as an element already was put there for you)
 
 function _drawQuote() {
-
+  let quote = store.State.quote
+  let template = quote.Template
+  document.getElementById("quote").innerHTML = template
 }
 
 

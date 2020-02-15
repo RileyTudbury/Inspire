@@ -5,8 +5,13 @@ export default class Quote {
 
   }
 
-  getTemplate() {
-    return ``
+  get Template() {
+    return `
+    
+    <h6>${this.body} - ${this.author}</h6>
+    
+    
+    `
   }
 
 

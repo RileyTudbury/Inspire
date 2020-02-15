@@ -15,7 +15,7 @@ function _drawBackground() {
 
 function _drawCopyright() {
   let image = store.State.image
-  document.getElementById("image-credit").innerHTML = `Copyright: ${store.State.image.copyright}`
+  document.getElementById("image-credit").innerHTML = `<h6>From: ${store.State.image.site}</h6>`
 }
 
 
