@@ -28,4 +28,13 @@ body{
   right: 2vw;
 }
 
+#add-task:hover{
+  cursor: pointer;
+  transition: background-color .1s ease;
+  background-color: gray !important;
+}
+
+#add-task-btn{
+  background-color: green;
+}
 
