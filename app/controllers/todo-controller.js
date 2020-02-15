@@ -7,11 +7,13 @@ function _drawTodos() {
 
   let todos = store.State.todos
   let todoElem = document.getElementById("task-list")
-  let template = `<li class="list-group-item bg-dark text-light text-center"> Total Todos Stored: ${store.State.todos.length} </li>`
+  let template = ``
 
   todos.forEach(t => {
     template += t.todoTemplate
   })
+
+  template += `<li class="list-group-item bg-dark text-light text-center"> Total Todos Stored: ${store.State.todos.length} </li>`
 
   todoElem.innerHTML = template
 

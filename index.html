@@ -32,12 +32,13 @@
 				<div class="card-body collapse text-left " id="list-group">
 					<ul class="list-group list-group-flush ">
 						<li type="button" data-toggle="collapse" class="list-group-item bg-dark text-light text-center"
-							data-target="#task-form" id="add-task">Add Task
+							data-target="#task-form" id="add-task">Add Todo
 						</li>
 						<div class="collapse bg-dark" id="task-form">
 							<form class="form-inline my-1" onsubmit="app.todoController.addTodo(event)">
 								<div class="form-group mx-auto">
-									<input type="text" name="description" class="form-control" id="inputTodo" placeholder="Add Todo...">
+									<input type="text" maxlength="30" name="description" class="form-control" id="inputTodo"
+										placeholder="Add Todo...">
 								</div>
 								<button type="submit" id="add-task-btn" class="btn btn-primary mr-auto">Add</button>
 							</form>
@@ -60,7 +61,7 @@
 		</div>
 	</main>
 
-
+	<script src="https://kit.fontawesome.com/e5b82d1da3.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 		crossorigin="anonymous"></script>
