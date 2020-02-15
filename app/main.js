@@ -10,6 +10,7 @@ class App {
     this.todoController = new TodoController();
     this.imageController = new ImageController();
     this.quoteController = new QuoteController();
+    this.todoController = new TodoController();
   }
 }
 

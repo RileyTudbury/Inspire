@@ -7,14 +7,31 @@ body{
   min-height: 100vh;
   background-size: cover;
   background-position: center;
+    color: white;
+  text-shadow: 1px 1px 3px black;
 }
 
-.row{
-  color: white;
-  text-shadow: 1px 1px 3px black;
+.btn{
+    background-color: transparent;
+    border-color: #ccc;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.card-body{
+  color: black;
 }
 
 #filler-col{
   min-height: 85vh;
 }
+
+#todo{
+  position: absolute;
+  bottom: 6vh;
+  right: 2vw;
+}
+
+
+
 
